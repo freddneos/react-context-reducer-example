@@ -9,3 +9,5 @@ Simple Article list to demostrate how to implement contextAPI to avoid pass prop
 Alternative to Redux full implementation.
 
 [Frederico.EU](https://frederico.eu)
+
+![app](./context-api.gif)

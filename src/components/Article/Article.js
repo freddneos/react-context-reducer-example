@@ -1,6 +1,6 @@
 import React from "react";
 import "./Article.css"
-import { Card, Button } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 const Article = ({ article }) => (
     <Card className="myArticle">
@@ -10,7 +10,6 @@ const Article = ({ article }) => (
             <Card.Text>
                 {article.body}
             </Card.Text>
-
         </Card.Body>
     </Card>
 
