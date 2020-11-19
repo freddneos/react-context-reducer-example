@@ -1,11 +1,19 @@
 import React from "react";
 import "./Article.css"
+import { Card, Button } from "react-bootstrap"
 
 const Article = ({ article }) => (
-    <div className="article">
-        <h1>{article.title}</h1>
-        <p>{article.body}</p>
-    </div>
+    <Card className="myArticle">
+        <Card.Header>Article id : {article.id}</Card.Header>
+        <Card.Body>
+            <Card.Title>{article.title}</Card.Title>
+            <Card.Text>
+                {article.body}
+            </Card.Text>
+
+        </Card.Body>
+    </Card>
+
 )
 
 export default Article
